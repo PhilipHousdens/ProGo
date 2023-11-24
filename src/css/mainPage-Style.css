@@ -11,50 +11,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.navbar {
-    background: #333;
-}
-
-.navbar h1 {
-    color: #E8BBA8;
-    padding-left: 15rem;
-    padding-right: 2rem;
-    font-size: 2rem;
-}
-
-.navbar a {
-    color: #E8BBA8;
-}
-
-.navbar a:hover {
-    color: whitesmoke;
-    text-decoration: underline;
-    text-decoration-color: #E8BBA8;
-}
-
-.nav-item {
-    text-align: center;
-    padding: 1rem;
-}
-
-.navbar-nav {
-    display: flex;
-    margin-left: auto;
-    margin-right: 10rem;
-}
-
-/* Additional Styles for responsiveness */
-@media (max-width: 768px) {
-    .navbar-nav {
-        flex-direction: column;
-        margin-left: 0; /* Reset margin for mobile view */
-    }
-    
-    .navbar h1 {
-        padding-left: 1rem; /* Adjust padding for mobile view */
-    }
-}
-
 .user-actions {
     display: flex;
     align-items: center;
