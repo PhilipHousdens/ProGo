@@ -74,3 +74,53 @@ body {
     margin: 0 0.5rem; /* Adjust margin for spacing */
 }
 
+.mainText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.title {
+    width: 791px;
+    height: 161px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mainText p {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.page-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+#page-signUp{
+    width: 124px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border-color: #E8BBA8;
+    background: #E8BBA8;
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
