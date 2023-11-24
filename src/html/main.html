@@ -50,5 +50,17 @@
     <div class="page-btn">
         <button id="page-signUp" class="btn btn-outline-light">Sign Up</button>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+                // Wait for the DOM to be fully loaded
+                var loginButton = document.querySelector('#logIn-btn');
+    
+                loginButton.addEventListener('click', function () {
+                    // Handle the button click event
+                    window.location.href = 'main.html'; // Replace with the actual destination
+                });
+            });
+    </script>
 </body>
 </html>
