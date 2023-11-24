@@ -25,12 +25,24 @@
             </div>      
             
             <div class="row pt-5">
-                <button class="btn btn-light">
+                <button id="logIn-btn" class="btn btn-light">
                     Log In
                 </button>
             </div>
         </div>
         
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                // Wait for the DOM to be fully loaded
+                var loginButton = document.querySelector('#logIn-btn');
+    
+                loginButton.addEventListener('click', function () {
+                    // Handle the button click event
+                    window.location.href = 'main.html'; // Replace with the actual destination
+                });
+            });
+        </script>
         
     </div>
     
