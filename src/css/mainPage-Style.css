@@ -13,7 +13,7 @@ body {
 
 .navbar h1 {
     color: #E8BBA8;
-    padding-left: 20rem;
+    padding-left: 15rem;
     padding-right: 2rem;
     font-size: 2rem;
 }
@@ -30,15 +30,26 @@ body {
 
 .nav-item {
     text-align: center;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .navbar-nav {
     display: flex;
-    justify-content: center;
-    width: 75%;
+    margin-left: auto;
+    margin-right: 15rem;
 }
 
+/* Additional Styles for responsiveness */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        margin-left: 0; /* Reset margin for mobile view */
+    }
+    
+    .navbar h1 {
+        padding-left: 1rem; /* Adjust padding for mobile view */
+    }
+}
 .horizontal-line {
     position: absolute;
     bottom: 0;
