@@ -1,9 +1,9 @@
-* {
+html, body {
     margin: 0;
-    padding: 0;
-}
-
-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     background-color: #333;
 }
 
@@ -12,16 +12,17 @@ h2 {
 }
 
 .wrapper {
-    width: 50%; /* Set your desired width */
-    max-width: 300px; /* Optional: Set a maximum width to prevent it from becoming too wide */
-    margin: 0 auto; /* Center the .wrapper horizontally */
+    width: 300px;
+    height: 100%;
+    max-width: 300px;
+    padding: 10px;
+    background: radial-gradient(circle, rgba(232,187,160,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 25px;
     display: flex;
-    flex-direction: column; /* Optional: Stack items vertically */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
 }
-
 .inputs {
     display: flex;
     flex-direction: column;
