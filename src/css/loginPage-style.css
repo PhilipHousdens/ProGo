@@ -8,7 +8,7 @@ html, body {
 }
 
 h2 {
-    color: white;
+    color: #333;
 }
 
 .wrapper {
@@ -30,7 +30,7 @@ h2 {
 }
 
 .line {
-    border: 2px solid #E8BBA8;
+    border: 2px solid rgb(62, 123, 163);
     border-radius: 2px;
     width: 100px;
     margin-top: 1rem;
@@ -44,6 +44,14 @@ h2 {
 .line, p {
     display: inline-block;
     margin: 3px 4px; /* Optional: Add some space between the elements */
-    color: white;
+    color: black;
     font-size: 12px;
+}
+.btn {
+    background-color: #E8BBA8;
+    margin-top: 1rem;
+}
+
+.btn a {
+    text-decoration: none;
 }
