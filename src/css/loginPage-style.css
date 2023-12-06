@@ -12,8 +12,11 @@ h2 {
 }
 
 .wrapper {
+    width: 50%; /* Set your desired width */
+    max-width: 300px; /* Optional: Set a maximum width to prevent it from becoming too wide */
+    margin: 0 auto; /* Center the .wrapper horizontally */
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Optional: Stack items vertically */
     justify-content: center;
     align-items: center;
     height: 50vh;
