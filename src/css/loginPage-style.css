@@ -16,11 +16,29 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50vh;
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
+}
+
+.line {
+    border: 2px solid gold;
+    width: 100px;
+    margin-top: 1rem;
+}
+
+.seperation {
+    margin-top: 1rem;
+    text-align: center; /* Optional: Center the content horizontally */
+}
+
+.line, p {
+    display: inline-block;
+    margin: 3px 4px; /* Optional: Add some space between the elements */
+    color: white;
+    font-size: 12px;
 }
